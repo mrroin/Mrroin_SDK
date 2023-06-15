@@ -1,0 +1,40 @@
+{
+  
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+     "lib": ["es2015", "es2018",  "es2016",
+      "dom",
+      "ES2017",
+      "dom.iterable"],
+    "strict": true,
+
+    "removeComments": false,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictPropertyInitialization": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "moduleResolution": "node"
+  },
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.stories.tsx",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts",
+  ],
+  "include": [
+    "src/**/*.*"
+  ]
+}

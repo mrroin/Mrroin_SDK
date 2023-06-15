@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+     "lib": ["es2015", "es2018",  "es2016",
+      "dom",
+      "dom.iterable"],
+    "strict": true
+  },
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.stories.tsx",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts",
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
